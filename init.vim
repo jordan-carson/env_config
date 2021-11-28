@@ -7,7 +7,6 @@ let mapleader = "\<Space>"
 call plug#begin()
 " Load Plugins
 
-
 " GUI Enhancements & Highlight
 " 	Statusline / Tabline plug
 Plug 'itchyny/lightline.vim'
@@ -20,7 +19,6 @@ Plug 'tpope/vim-surround'
 " 	Allows to select multiple characters, create cursors, in Normal or
 " 	Extended Mode
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
-
 
 " Semantic language support
 " 	auto-completion and snippet integration - https://vimawesome.com/plugin/nvim-lspconfig
